@@ -1,4 +1,12 @@
 {
   "name": "@shupotop/hello-world",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "Printing in the console 'Hello World!'",
+  "license": "MIT",
+  "repository": "shupotop/hello-world",
+  "main": "index.js",
+  "keywords": [
+    "shupotop",
+    "hello-world"
+  ]
 }
