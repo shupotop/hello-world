@@ -4,9 +4,19 @@
   "description": "Printing in the console 'Hello World!'",
   "license": "MIT",
   "repository": "shupotop/hello-world",
-  "main": "index.js",
+  "main": "dist/index_bundle.js",
+  "scripts": {
+    "build": "webpack"
+  },
   "keywords": [
     "shupotop",
     "hello-world"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  }
 }
