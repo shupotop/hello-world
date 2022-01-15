@@ -6,7 +6,7 @@ const _config = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
     library: {
-      name: "helloWorld",
+      name: "HelloWorld",
       type: "umd",
     },
   },
@@ -26,7 +26,7 @@ const _config = {
   },
   resolve: {
     extensions: [".js", ".json"],
-    modules: [path.resolve(__dirname, "src")],
+    modules: [path.resolve(__dirname, "src"), "node_modules"],
   },
   mode: "production",
 };
